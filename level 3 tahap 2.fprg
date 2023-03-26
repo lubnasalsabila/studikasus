@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User-001"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-23 03:34:26 PM"/>
+        <attribute name="created" value="VXNlci0wMDE7UFVUUkktQU5BU1RJOzIwMjMtMDMtMjM7MDM6MzA6MTMgUE07Mjc3MQ=="/>
+        <attribute name="edited" value="VXNlci0wMDE7UFVUUkktQU5BU1RJOzIwMjMtMDMtMjM7MDM6MzQ6MjYgUE07MTsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="data" type="Integer" array="True" size="3"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="hasil" type="Real" array="False" size=""/>
+            <for variable="i" start="0" end="2" direction="inc" step="1">
+                <output expression="&quot;masukkan bilangan: &quot;" newline="True"/>
+                <input variable="data[i]"/>
+            </for>
+            <output expression="&quot;data :  &quot;&amp;data[0]&amp;&quot;, &quot;&amp;data[1]&amp;&quot;, &quot;&amp;data[2]" newline="True"/>
+            <output expression="&quot;nilai tengah adalah: &quot;&amp;data[1]" newline="True"/>
+            <assign variable="hasil" expression="data[1]"/>
+        </body>
+    </function>
+</flowgorithm>

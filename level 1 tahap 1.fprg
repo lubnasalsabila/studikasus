@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User-001"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-07 09:47:00 PM"/>
+        <attribute name="created" value="VXNlci0wMDE7UFVUUkktQU5BU1RJOzIwMjMtMDMtMDc7MDk6MDM6NDEgUE07Mjc4MA=="/>
+        <attribute name="edited" value="VXNlci0wMDE7UFVUUkktQU5BU1RJOzIwMjMtMDMtMDc7MDk6NDc6MDAgUE07MTsyODkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;bilangan a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;bilangan b&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a &gt; b">
+                <then>
+                    <output expression="a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a = b">
+                        <then>
+                            <output expression="&quot;bilangan yang anda input sama besar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="b" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
